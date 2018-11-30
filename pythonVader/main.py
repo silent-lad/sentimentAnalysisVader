@@ -1,7 +1,8 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 # note: depending on how you installed (e.g., using source code download versus pip install), you may need to import like this:
 #from vaderSentiment import SentimentIntensityAnalyzer
-
+import sys
+# print(sys.argv[1])
 # --- examples -------
 sentences = ["VADER is smart, handsome, and funny.",  # positive sentence example
              # punctuation emphasis handled correctly (sentiment intensity adjusted)

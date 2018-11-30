@@ -1,4 +1,5 @@
-bin
-include
-lib
-pip-selfcheck.json
+pythonVader/bin
+pythonVader/include
+pythonVader/lib
+pythonVader/pip-selfcheck.json
+server/node_modules
